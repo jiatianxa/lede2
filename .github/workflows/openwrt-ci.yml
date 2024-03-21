@@ -80,6 +80,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ddns-go=y
           CONFIG_PACKAGE_luci-app-easymesh=y
           CONFIG_PACKAGE_luci-app-oaf=y
+          CONFIG_PACKAGE_luci-app-mosdns=y
           CONFIG_TARGET_ROOTFS_PARTSIZE=300
           EOF
           
