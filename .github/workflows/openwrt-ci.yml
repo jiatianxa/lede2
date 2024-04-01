@@ -45,10 +45,6 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-
-
       - name: Generate configuration file
         run: |
           rm -f ./.config*
